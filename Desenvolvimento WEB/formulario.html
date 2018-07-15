@@ -1,0 +1,33 @@
+﻿<html>
+     <head>
+         <title>Formulário</title>
+         <meta charset="UTF-8">
+     </head>
+     <body>
+          <h1>Formulário</h1>
+          <form method="POST" action="C:/Users/Guilherme/Desktop/Desenvolvimento WEB/recebe-info.php">
+              <label>Nome: </label><br>
+              <input placeholder="Seu Nome" type="text" name"Nome" value=""><br><br>
+              <label>Sexo: </label><br>
+              <input type="radio" name="Sexo" value="M"> Masculino
+              <input type="radio" name="Sexo" value="F"> Feminino<br><br>
+              <label>Data de Nascimento:</label><br>
+              <input type="month" name="nascimento"><br><br>
+              <label>Número Para Contato:</label><br>
+              <input placeholder="Telefone" type="tel" name="telefone"><br><br>
+              <label>E-mail Para Contato</label><br>
+              <input placeholder="e-mail" type="email" name="email"><br><br>
+              <label>Atividades Físicas?</label><br>
+              <input type="checkbox" name="Atividades[]" value="1"> Bicicleta
+              <input type="checkbox" name="Atividades[]" value="2"> Corrida
+			  <input type="checkbox" name="Atividades[]" value="3"> Futebol
+			  <input type="checkbox" name="Atividades[]" value="4"> Vôlei
+              <input type="checkbox" name="Atividades[]" value="5"> Caminhada<br /><br />
+              <label>Senha:</label><br />
+              <input placeholder="Sua Senha" type="password" name="Senha" value=""><br><br>
+              <input type="submit" value="Enviar">
+              <input type="reset" value="Limpar">
+              <a href="index.html"><input type="button" value="Início"></a>
+          </form>
+     </body>
+</html>
